@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import header from './components/header'
+import { useState } from 'react';
+import Headers from './components/Headers';
+import InputForm from './components/InputForm';
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      <header/>
-    </h1>
-  )
+    <div className="bg-[url('/images/01.jpg')]  h-screen w-full">
+      <Headers />
+      <InputForm />
+    </div>
+  );
 }
